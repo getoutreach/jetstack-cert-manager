@@ -34,12 +34,14 @@ require (
 	github.com/go-openapi/swag v0.19.0 // indirect
 	github.com/go-sql-driver/mysql v1.4.1 // indirect
 	github.com/gocql/gocql v0.0.0-20190402132108-0e1d5de854df // indirect
+	github.com/golang/groupcache v0.0.0-20180513044358-24b0969c4cb7 // indirect
 	github.com/golang/protobuf v1.3.1 // indirect
 	github.com/golang/snappy v0.0.0-20180518054509-2e65f85255db // indirect
 	github.com/google/btree v1.0.0 // indirect
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf
+	github.com/googleapis/gnostic v0.2.0 // indirect
 	github.com/gorilla/context v1.1.1 // indirect
 	github.com/gorilla/mux v1.6.2
 	github.com/gotestyourself/gotestyourself v2.2.0+incompatible // indirect
@@ -55,6 +57,7 @@ require (
 	github.com/hashicorp/golang-math-big v0.0.0-20180316142257-561262b71329 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hashicorp/vault v0.9.6
+	github.com/imdario/mergo v0.3.6 // indirect
 	github.com/jefferai/jsonx v1.0.0 // indirect
 	github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af // indirect
 	github.com/keybase/go-crypto v0.0.0-20190403132359-d65b6b94177f // indirect
@@ -84,10 +87,14 @@ require (
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.3.0
 	github.com/tent/http-link-go v0.0.0-20130702225549-ac974c61c2f9 // indirect
+	go.uber.org/atomic v1.3.2 // indirect
+	go.uber.org/multierr v1.1.0 // indirect
+	go.uber.org/zap v1.9.1 // indirect
 	golang.org/x/crypto v0.0.0-20190426145343-a29dc8fdc734
 	golang.org/x/net v0.0.0-20190502183928-7f726cade0ab
 	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4 // indirect
+	gomodules.xyz/jsonpatch/v2 v2.0.0 // indirect
 	google.golang.org/api v0.4.0
 	google.golang.org/genproto v0.0.0-20190502173448-54afdca5d873 // indirect
 	google.golang.org/grpc v1.20.1 // indirect
@@ -98,7 +105,7 @@ require (
 	k8s.io/apiextensions-apiserver v0.0.0-20190718185103-d1ef975d28ce
 	k8s.io/apimachinery v0.0.0-20190612205821-1799e75a0719
 	k8s.io/apiserver v0.0.0-20190718184206-a1aa83af71a7
-	k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible
+	k8s.io/client-go v0.22.4
 	k8s.io/code-generator v0.0.0-20190612205613-18da4a14b22b
 	k8s.io/component-base v0.0.0-20190718183727-0ececfbe9772
 	k8s.io/gengo v0.0.0-20190327210449-e17681d19d3a // indirect
@@ -106,7 +113,6 @@ require (
 	k8s.io/kube-aggregator v0.0.0-20190222095010-0b78038fe9e5
 	k8s.io/kube-openapi v0.0.0-20190228160746-b3a7cee44a30
 	k8s.io/utils v0.0.0-20190607212802-c55fbcfc754a
-	sigs.k8s.io/controller-runtime v0.2.0-beta.4
 	sigs.k8s.io/controller-tools v0.2.0-beta.4
 	sigs.k8s.io/testing_frameworks v0.1.1
 )
@@ -127,7 +133,7 @@ replace k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20190612205821-1799e75
 
 replace k8s.io/apiserver => k8s.io/apiserver v0.0.0-20190718184206-a1aa83af71a7
 
-replace k8s.io/client-go => k8s.io/client-go v0.0.0-20190718183610-8e956561bbf5
+replace k8s.io/client-go => k8s.io/client-go v0.22.4
 
 replace k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190612205613-18da4a14b22b
 
